@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Vamos Rachar?</string>
+    <string name="app_name">Vamos rachar?</string>
+    <string name="hint_numero_pessoas">Insira o número de pessoas</string>
+    <string name="hint_valor_conta">Insira o valor da conta</string>
+    <string name="btn_falar">Falar</string>
+    <string name="btn_compartilhar">Compartilhar</string>
+    <string name="label_vamos_rachar">Vamos rachar!</string>
+    <string name="label_calculated_amount"></string>
 </resources>
