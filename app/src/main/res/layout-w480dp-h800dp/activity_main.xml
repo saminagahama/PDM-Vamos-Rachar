@@ -9,26 +9,9 @@
 
 
     <EditText
-        android:id="@+id/edtNumberOfPeople"
-        android:layout_width="262dp"
-        android:layout_height="45dp"
-        android:ems="10"
-        android:hint="Insira o número de pessoas"
-        android:inputType="number"
-        android:textAlignment="center"
-        android:textColor="#FFF"
-        android:textColorHint="#C6C6C6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.973"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtConta"
-        app:layout_constraintVertical_bias="0.063" />
-
-    <EditText
         android:id="@+id/edtConta"
-        android:layout_width="262dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Insira o valor da conta"
         android:inputType="number"
@@ -36,18 +19,38 @@
         android:textColor="#FFF"
         android:textColorHighlight="#ACACAC"
         android:textColorHint="#C6C6C6"
+        android:textSize="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.88"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.343" />
+
+    <EditText
+        android:id="@+id/edtNumberOfPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insira o número de pessoas"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textColorHint="#C6C6C6"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtConta"
+        app:layout_constraintVertical_bias="0.066" />
 
     <Button
         android:id="@+id/btnCompartilhar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Compartilhar"
+        android:textSize="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -61,6 +64,7 @@
         android:layout_height="wrap_content"
         android:text="Falar"
         android:textColorLink="#FFFFFF"
+        android:textSize="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnCompartilhar"
         app:layout_constraintHorizontal_bias="0.5"
@@ -75,7 +79,7 @@
         android:layout_marginTop="28dp"
         android:text="Vamos rachar!"
         android:textColor="#FFFFFF"
-        android:textSize="50dp"
+        android:textSize="72dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -91,10 +95,10 @@
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.611" />
+        app:layout_constraintVertical_bias="0.581" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -105,10 +109,10 @@
         android:tint="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/btFalar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintVertical_bias="0.529"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

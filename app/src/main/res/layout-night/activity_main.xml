@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDay"
+    android:background="@color/colorPrimaryNight"
     tools:context="MainActivity">
 
 
     <EditText
         android:id="@+id/edtNumberOfPeople"
-        android:layout_width="262dp"
+        android:layout_width="258dp"
         android:layout_height="45dp"
         android:ems="10"
         android:hint="Insira o número de pessoas"
@@ -28,7 +28,7 @@
     <EditText
         android:id="@+id/edtConta"
         android:layout_width="262dp"
-        android:layout_height="45dp"
+        android:layout_height="43dp"
         android:ems="10"
         android:hint="Insira o valor da conta"
         android:inputType="number"

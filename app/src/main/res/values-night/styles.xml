@@ -1,0 +1,5 @@
+<resources>
+    <style name="AppThemeNight" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+    </style>
+</resources>

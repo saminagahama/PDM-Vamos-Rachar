@@ -10,7 +10,7 @@
 
     <EditText
         android:id="@+id/edtNumberOfPeople"
-        android:layout_width="262dp"
+        android:layout_width="258dp"
         android:layout_height="45dp"
         android:ems="10"
         android:hint="Insira o número de pessoas"
@@ -28,7 +28,7 @@
     <EditText
         android:id="@+id/edtConta"
         android:layout_width="262dp"
-        android:layout_height="45dp"
+        android:layout_height="43dp"
         android:ems="10"
         android:hint="Insira o valor da conta"
         android:inputType="number"
@@ -38,10 +38,10 @@
         android:textColorHint="#C6C6C6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.343" />
+        app:layout_constraintVertical_bias="0.353" />
 
     <Button
         android:id="@+id/btnCompartilhar"
