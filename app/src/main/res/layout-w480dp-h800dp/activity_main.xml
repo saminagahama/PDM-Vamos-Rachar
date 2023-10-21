@@ -19,13 +19,13 @@
         android:textColor="#FFF"
         android:textColorHighlight="#ACACAC"
         android:textColorHint="#C6C6C6"
-        android:textSize="32dp"
+        android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.343" />
+        app:layout_constraintVertical_bias="0.381" />
 
     <EditText
         android:id="@+id/edtNumberOfPeople"
@@ -37,20 +37,20 @@
         android:textAlignment="center"
         android:textColor="#FFF"
         android:textColorHint="#C6C6C6"
-        android:textSize="32dp"
+        android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtConta"
-        app:layout_constraintVertical_bias="0.066" />
+        app:layout_constraintVertical_bias="0.075" />
 
     <Button
         android:id="@+id/btnCompartilhar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_compartilhar"
-        android:textSize="32dp"
+        android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_falar"
         android:textColorLink="#FFFFFF"
-        android:textSize="32dp"
+        android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnCompartilhar"
         app:layout_constraintHorizontal_bias="0.5"
@@ -76,10 +76,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="40dp"
         android:text="@string/label_vamos_rachar"
         android:textColor="#FFFFFF"
-        android:textSize="72dp"
+        android:textSize="50dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -109,10 +109,10 @@
         android:tint="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/btFalar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.529"
+        app:layout_constraintVertical_bias="0.119"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
