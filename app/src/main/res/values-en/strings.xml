@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lets Split?</string>
+    <string name="hint_numero_pessoas">Enter the number of people</string>
+    <string name="hint_valor_conta">Enter the bill amount</string>
+    <string name="btn_falar">Speak</string>
+    <string name="btn_compartilhar">Share</string>
+    <string name="label_vamos_rachar">Let's split!</string>
+    <string name="label_calculated_amount"></string>
+</resources>
