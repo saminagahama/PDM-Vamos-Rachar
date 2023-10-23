@@ -35,7 +35,7 @@
         android:textAlignment="center"
         android:textColor="#FFF"
         android:textColorHighlight="#ACACAC"
-        android:textColorHint="#E4E4E4"
+        android:textColorHint="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
